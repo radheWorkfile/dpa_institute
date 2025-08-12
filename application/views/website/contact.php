@@ -64,7 +64,7 @@
                                 </div>
                                 <div class="contact_left_text">
                                     <h3>Call Now:</h3>
-                                    <p><a class="contact-anchor" href="tel:91<?php echo $custom_setting->mobile ? $custom_setting->mobile : config_item('mobile_number_1'); ?>"><?php echo $custom_setting->mobile ? $custom_setting->mobile : config_item('mobile_number_1'); ?></a></p>
+                                    <p><a class="contact-anchor" href="tel:91<?php echo $custom_setting->mobile ? $custom_setting->mobile : config_item('mobile_number_1'); ?>"><?php echo $custom_setting->mobile ? '+91 '. $custom_setting->mobile : config_item('mobile_number_1'); ?></a></p>
                                 </div>
                             </div>
                         </div>

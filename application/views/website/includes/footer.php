@@ -18,10 +18,10 @@
                     <?php endif;?>
                     <div>
                         <?php if ($custom_setting): ?>
-                            <p class="text-secondary py-3 mb-0 text-justify"><?php echo $custom_setting->about_company; ?></p>
+                            <p class="text-white py-3 mb-0 text-justify"><?php echo 'DPA '.$custom_setting->about_company.'!'; ?></p>
                         <?php else: ?>
-                            <p class="text-secondary py-3 mb-0">
-                                At our NGO, we are passionate about empowering individuals and communities through education, skills training, and support programs. Our focus is on creating sustainable solutions that uplift lives and foster self-reliance.
+                            <p class="text-white py-3 mb-0">
+                               DPA Computer Institute empowers students with essential coding skills, offering hands-on training in HTML, CSS, PHP, JavaScript, and popular frameworks. With expert instructors and real-world projects, students also master Git for version control. Join DPA to build a strong foundation in web development and boost your career with industry-relevant tech skills. Learn, code, and succeed!
                             </p>
                         <?php endif; ?>
                     </div>
@@ -100,8 +100,7 @@
     <div class="container">
     <div class="row">
     <div class="col-md-12">
-    <p class="p-3 text-center text-white mb-0">© 2024 All Right Reserved. Design & Development |
-    <b><a href="<?php echo base_url('site');?>"><?php echo $custom_setting->reservedText?$custom_setting->reservedText:'NGO';?></a></b>
+    <p class="p-3 text-center text-white mb-0"><b><a href="<?php echo base_url('site');?>" class="text-white text-shadow"><?php echo $custom_setting->reservedText?'@ '.$custom_setting->reservedText:'NGO';?></a></b>
     </a></p>
             </div>
         </div>

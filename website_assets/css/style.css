@@ -868,7 +868,7 @@ li {
 
 .button-effect-part {
     position: relative;
-    background-color: #ed6600;
+    background-color: #144558;
     border: wheat;
     padding: 12px 32px;
     color: rgb(255, 255, 255);
@@ -880,7 +880,8 @@ li {
 
 
 .team-name {
-    background-color: #ffaf72;
+    /* background-color: #ffaf72; */
+    background: linear-gradient(to right, #11998e, #38ef7d);
     transition: 0.8s;
 }
 
@@ -895,7 +896,8 @@ li {
 
 
 #bgg-more-view {
-    background-color: #ed6600;
+    /* background-color: #ed6600; */
+      background: linear-gradient(to right, #cb356b, #bd3f32);
     border: none;
     color: white;
     padding: 10px 25px;
@@ -1726,7 +1728,7 @@ li {
 
     .blibking_news-top_nav {
         padding: 8px 15px;
-        background: #24a952;
+        background: #f95454;
         color: white;
         font-size: 14px;
         animation: blink 1s linear infinite;
