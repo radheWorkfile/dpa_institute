@@ -1,0 +1,203 @@
+
+<!-- previewImage -->
+<div class="content-body">
+      <div class="container-fluid">
+      <div class="row">
+      <div class="col-xl-12 col-lg-12">
+      <div class="card">
+      <div class="card-header">
+      <h4 class="card-title text-white"><?php echo $title;?></h4>
+      </div>
+      <div class="card-body">
+      <div class="basic-form" id="bannerCreate_sec">
+          <!-- ============================================ Banner section start ================================== -->
+          <form id="create" data-id="<?php echo base_url('website/front_cms/updateTeamMem');?>" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+   
+            <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8"> 
+                
+            <!-- Upload Area -->               
+            <div id="uploadArea" class="upload-area">
+            <!-- Header -->
+            <div class="upload-area__header">
+            <h5>Upload your file</h5>
+            <p class="upload-area__paragraph text-danger">File should be an image
+            <strong class="upload-area__tooltip">png, jpg, jpeg.
+            <span class="upload-area__tooltip-data"></span> <!-- Data Will be Comes From Js -->
+            </strong>
+            </p>
+            </div>
+            <!-- End Header -->
+
+            
+
+            <!-- Drop Zoon -->
+            <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
+            <span class="drop-zoon__icon">
+            <i class='bx bxs-file-image'></i>
+            </span>
+            <p class="drop-zoon__paragraph text-success"><?php echo $isteamMemData->image ? '<img src="' . base_url($isteamMemData->image) . '" alt="" style="height:4rem;">' : 'Drop your file here or Click to browse'; ?></p>
+            <span id="loadingText" class="drop-zoon__loading-text">Please Wait</span>
+            <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image" draggable="false">
+            <input type="file" id="fileInput" name="previewImage" class="drop-zoon__file-input" accept="image/*">
+            </div>
+            <!-- End Drop Zoon -->
+             
+            <span id="updateMessage">&nbsp;&nbsp;</span>
+
+            <div class="row mt-1">
+            <div class="col-md-12">
+            <div class="mb-3">
+            <div class="input-group">
+            <span class="input-group-text"> <i class="fa fa-link text-color"></i> </span>
+            <input type="text" class="form-control border-left-end" maxlength="20" value="<?php echo $isteamMemData->heading;?>" name="headingText" id="headingText" placeholder="Enter Heading.." required="">
+            <input type="hidden" class="form-control border-left-end" maxlength="20" value="<?php echo $isteamMemData->id;?>" name="id" id="id" required="">
+            <div class="invalid-feedback">Please Enter Heading.
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="row mt-1">
+            <div class="col-md-12">
+            <div class="mb-3">
+            <div class="input-group">
+            <span class="input-group-text"> <i class="fa fa-link text-color"></i> </span>  
+            <input type="text" class="form-control border-left-end" maxlength="26" value="<?php echo $isteamMemData->content;?>" name="content" id="content" placeholder="Enter Your text.." required="">
+            <div class="invalid-feedback">Please Enter Member Name.
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <!-- File Details -->
+            <div id="fileDetails" class="upload-area__file-details file-details">
+            <h3 class="file-details__title">Uploaded File</h3>          
+            <div id="uploadedFile" class="uploaded-file">
+            <div class="uploaded-file__icon-container">
+            <i class='bx bxs-file-blank uploaded-file__icon'></i>
+            <span class="uploaded-file__icon-text"></span> <!-- Data Will be Comes From Js -->
+            </div>          
+            <div id="uploadedFileInfo" class="uploaded-file__info">
+            <span class="uploaded-file__name">Proejct 1</span>
+            <span class="uploaded-file__counter">0%</span>
+            </div>
+     
+            </div>
+            </div>
+            <!-- End File Details -->   
+           
+            <button type="submit" class="btn btn-primary float-center mt-1" id="saveDetails"><i class="fa fa-save"></i> Upload</button>
+            
+            </div>         
+            <!-- End Upload Area -->
+            </div>
+            <div class="col-md-2"></div>
+            </div>
+            </form>
+    <!-- ============================================== Banner section end ================================== -->
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>      
+      </div> 
+
+              <!-- =================================== Status Model section End ======================== -->
+    <div id="statusChange" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLiveLabel" style=" padding-left: 0px;" aria-modal="true" role="dialog">
+         <div class="modal-dialog" role="document">
+         <div class="modal-content">
+         <div class="modal-body">
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="float:right;"><i class="si si-close"></i></button>
+         <div class="delMsg"><i class="fe fe-sliders"></i><span><i class="fas fa-gear fa-spin" style="font-size:14px;color:#6a4343;"></i></span><span style="color:#6a4343;"> Manage Status</span></div>
+         <div class="actnData py-2"> Are you sure want to activate of Shift ID #F33333</div>
+         <div id="mdlFtrBtn">
+         <button type="button" class="btn btn-outline-secondary waves-effect waves-light pull-right getAction" id="cnfChangesStatus" data-id="@misingh143">
+         Confirm <i class="si si-check"></i>
+         </button>
+         <button type="button" class="btn btn-outline-dark pull-right miIcn " data-bs-dismiss="modal" style="margin-right:10px;">
+         <i class="fa fa-arrow-left"></i> Back 
+         </button>   
+         </div>	
+         </div>
+         </div>
+         </div>
+    </div>
+<!-- =================================== Status Model section End ======================== -->
+
+
+      <style>
+        .imageView {transition: transform 0.3s ease-in-out; }
+        .imageView:hover {transform: scale(5.5);}
+           .sRvDeactive {
+           padding: 4px 8px 4px 8px;
+           background-color: #EE4B5C4F;
+           color: #EE4B5C;
+           border-radius: 3px;
+           cursor: pointer;
+           font-size: .8rem;
+         }
+         .sRvActive {
+           padding: 4px 15px 4px 15px;
+           background-color: #0AC89024;
+           color: #009569;
+           border-radius: 3px;
+           cursor: pointer;
+           font-size: .8rem;
+         }
+         .sRvSuspnd {
+           padding: 4px 8px 4px 8px;
+           background-color: #FF9F003D;
+           color: #9D6200;
+           border-radius: 3px;
+           cursor: pointer;
+           font-size: .8rem;
+         }
+         .text-color{color:#006f75;}
+         .mt_1{margin-top:-1rem;}
+         </style>
+
+
+
+      <script src="<?php echo base_url('assets/js/admin/employee.js') ?>"></script>
+      
+
+        <script>
+
+		$(document).ready(function () {
+        $("#create").on("submit", function (e) {
+          let base_url = $(this).attr('data-id');
+        e.preventDefault(); 
+        $.ajax({
+            type: "POST",
+            url: base_url,
+            data: new FormData(this),
+            processData: false,
+            contentType: false,
+            cache: false,
+            async: false,
+            dataType:'json',
+            success: function (htmlAmi) {
+              toastMultiShow(htmlAmi.addClas, htmlAmi.msg, htmlAmi.icon);
+              if (htmlAmi.addClas == 'tSuccess') { setTimeout(function() { window.location.href = htmlAmi.returnLoc; }, 2000); }
+             }, 
+            }); });});
+
+
+     var teamMemListItem = '';              
+     $(document).ready(function() {
+     let searchObj = {};
+     var targetAction = $('#teamMemList').attr('data-id');
+     teamMemListItem = {
+     printTable: function(search_data) {
+     getpaginate(search_data, '#teamMemList', targetAction, 'Only For Tnx id, Month.');
+     }
+     };
+     teamMemListItem.printTable(searchObj);           
+     });
+
+    </script>

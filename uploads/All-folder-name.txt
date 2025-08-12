@@ -1,0 +1,14 @@
+
+	1 => advertise
+	2 =>  banner
+	3 => donation
+	4 => employee
+	5 => event
+	6 => expense
+	7 => gallery
+	8 => kyc_verify
+	9 => member
+	10 => program
+	11 => project
+	12 => setting
+	13 => volunteer
