@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('Can we play bubu together ?');
     $config['mobile_number_1'] = "9028388889";
     // $config['mobile_number_2'] = "9572852742";
     $config['email'] = "camwelsolution@gmail.com";
-    $config['address'] = "Janki Market, Bhagwat Nagar, Kumhrar, Patna 800026, Bihar, India.";
+    $config['address'] = "Shivaji Nagar, Khandak Par, Bihar Sharif, Nalanda 803101.";
     $config['aboutCompany'] = "An NGO is a nonprofit organization dedicated to addressing social environmental or humanitarian issues It operates independently from government control or influence striving to create positive change through various initiatives NGOs focus on improving communities advocating for human rights environmental protection and supporting vulnerable populations worldwide ";
 
     $config['ID_EXT'] = "NGO-";

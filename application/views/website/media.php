@@ -59,21 +59,21 @@
                     <div class="col-12 col-lg-4 col-md-6 my-2">
                     <div class="team-01">
                         <div class="images-before grayscale">
-                            <img src="<?php echo base_url() ?>website_assets/all/event1.png" alt="">
+                            <img src="<?php echo base_url() ?>website_assets/all/image_1.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6 my-2">
                     <div class="team-01">
                         <div class="images-before grayscale">
-                            <img src="<?php echo base_url() ?>website_assets/all/event2.png" alt="">
+                            <img src="<?php echo base_url() ?>website_assets/all/image_2.png" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6 my-2">
                     <div class="team-01">
                         <div class="images-before grayscale">
-                            <img src="<?php echo base_url() ?>website_assets/all/event1.png" alt="">
+                            <img src="<?php echo base_url() ?>website_assets/all/image_3.png" alt="">
                         </div>
                     </div>
                 </div>

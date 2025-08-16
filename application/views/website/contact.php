@@ -13,7 +13,7 @@
 <body>
     <?php include("includes/navbar.php"); ?>
     <div class="container-fluid p-0 position-relative">
-        <img src="<?php echo base_url(); ?>front/About/hero.jpeg" class="w-100 mobile-height-set" alt="">
+        <img src="<?php echo base_url(); ?>website_assets/Hero-section/contact_us.png" class="w-100 mobile-height-set" alt="">
         <div class="all-common-banner-text">
             <h3 class="fw-bolder">Contact Us</h3>
             <div class="d-flex link-part-hero gap-3"><a href="<?php echo base_url() ?>site">Home</a>/ <p class="mb-0">Contact Us</p>
@@ -93,11 +93,32 @@
                                         <input placeholder="Your Email Address" id="email" name="email" class=" contact-input-ngo" type="email"
                                             required>
                                     </div>
-                                    <div class="my-3">
+                                    <!-- <div class="my-3">
                                         <input placeholder="Enter Subject Here" name="subject"
                                             oninput="this.value = this.value.replace(/[^a-zA-Z]/g, ' ').replace(/(\  *?)\  */g, '$1')"
                                             id="subject" type="text" class="contact-input-ngo" required>
+                                    </div> -->
+
+
+                                    <div class="my-3">
+                                    <select name="course" id="course" class="contact-input-ngo w-82">
+                                    <option value="" selected>Select One</option>
+                                    <option value="web-development">Web Development</option>
+                                    <option value="full-stack-development">Full Stack Development</option>
+                                    <option value="digital-marketing">Digital Marketing</option>
+                                    <option value="graphic-designing">Graphic Designing</option>
+                                    <option value="c++">C++</option>
+                                    <option value="java">Java</option>
+                                    <option value="python">Python</option>
+                                    <option value="html">HTML</option>
+                                    <option value="css">CSS</option>
+                                    <option value="javascript">JavaScript</option>
+                                    <option value="sql-mysql">SQL / MySQL</option>
+                                    </select>
                                     </div>
+
+
+
                                 </div>
                             </div>
 

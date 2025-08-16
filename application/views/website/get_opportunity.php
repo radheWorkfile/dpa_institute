@@ -15,8 +15,8 @@
     <div class="container-fluid p-0 position-relative">
         <img src="<?php echo base_url(); ?>website_assets/Hero-section/opp_hero.png" class="w-100  mobile-height-set" alt="">
         <div class="all-common-banner-text">
-            <h3 class="fw-bolder">Our Volunteer</h3>
-            <div class="d-flex link-part-hero gap-3"><a href="<?php echo base_url()?>site/">Home</a>/ <p class="mb-0">Our Volunteer</p>
+            <h3 class="fw-bolder">Get Opportunity</h3>
+            <div class="d-flex link-part-hero gap-3"><a href="<?php echo base_url()?>site/">Home</a>/ <p class="mb-0">Get Opportunity</p>
             </div>
         </div>
     </div>
@@ -40,10 +40,10 @@
                     <h2 class="text-color fw-bolder my-2 animated-text">Opportunities Knock                    </h2>
 
                     <p class="text-justify" data-aos="fade-in"
-                    data-aos-duration="3000">At Get_Opportunity, our NGO is dedicated to creating impactful opportunities for underprivileged communities. We strive to provide access to education, vocational training, and resources that empower individuals to break free from the cycle of poverty. Through our initiatives, we aim to uplift lives and inspire self-reliance.
+                    data-aos-duration="3000">If you complete the Web Development and Full Stack Development courses from DPA Computer Institute, you will have a strong chance of getting placed. These courses are designed as part of a specialized training module that focuses on both frontend and backend technologies, preparing you for real-world projects and job requirements.
                     </p>
                     <p class="text-justify" data-aos="fade-in"
-                    data-aos-duration="3000">Our programs focus on skill development, mentorship, and awareness campaigns to ensure sustainable growth. By connecting individuals with resources and opportunities, we foster a supportive environment where dreams can flourish. Every effort we make is centered on driving positive change and building resilient communities.</p>
+                    data-aos-duration="3000">The content is up-to-date with industry trends, and the practical approach ensures you become fully job-ready by the end of the course. Many students who have completed these programs have successfully secured positions in top companies.</p>
                    </div>
                 </div>
 

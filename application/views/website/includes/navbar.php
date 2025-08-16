@@ -85,18 +85,8 @@
                     <a href="javascript:void(0)">Our Supporters</a>
                     <i class="fa-solid fa-angle-down"></i>
                     <ul class="sub-menu">
-                        <li>
-                            <a href="javascript:void(0)"><span>About Us</span></a>
-                        </li>
-
-                        
-                        <li>
-                            <a href="javascript:void(0)"><span>People Behind</span></a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0)"><span>Reach & Presence</span></a>
-                        </li>
-
+                        <li><a href="<?php echo base_url() ?>site/about"><span>About Us</span></a></li>
+                        <li><a href="<?php echo base_url() ?>site/People_Behind"><span>People Behind</span></a></li>
                     </ul>
                 </li>
 
@@ -105,41 +95,61 @@
                     <i class="fa-solid fa-angle-down"></i>
                     <ul class="sub-menu">
                         <li>
-                            <a href="javascript:void(0)"><span>Health</span></a>
-                        </li>
-
-                        <li>
-                            <a href="javascript:void(0)" ><span>Education</span></a>
+                            <a href="<?php echo base_url('site/web_development');?>"><span>Web Development</span></a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" ><span>Environment</span></a>
+                            <a href="<?php echo base_url('site/software_development');?>" ><span>Software Development</span></a>
+                        </li>
+                         <li>
+                            <a href="<?php echo base_url('site/full_stack_development');?>" ><span>Full Stack Development</span></a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" ><span>Women Empowerment</span></a>
+                            <!-- <a href="<?php echo base_url('site/app_development');?>" ><span>App Development</span></a> -->
+                            <a href="javaScript:void(0);" ><span>App Development</span></a>
                         </li>
                         <li>
-                            <a href="javascript:void(0)" ><span>Privilged Child</span></a>
+                            <a href="<?php echo base_url('site/digital_marketing');?>" ><span>Digital Marketing</span></a>
                         </li>
 
                     </ul>
                 </li>
 
-                <li class="dropdown">
-                    <a href="javascript:void(0)">Project</a>
+                 <li class="dropdown">
+                    <a href="">Our Courses</a>
                     <i class="fa-solid fa-angle-down"></i>
                     <ul class="sub-menu">
-                        <li><a href="javascript:void(0)" ><span>Complete Project</span></a>
-                        </li>
-                        <!-- <li><a href="<?php echo base_url() ?>site/impact" ><span>Impact Stories 2</span></a></li> -->
+                        <li><a href="<?php echo base_url('site/c');?>"><span>C</span></a></li>
+                        <li><a href="<?php echo base_url('site/c_plus');?>" ><span>C++</span></a></li>
+                        <li><a href="<?php echo base_url('site/java');?>" ><span>Java</span></a></li>
+                        <li><a href="<?php echo base_url('site/python');?>" ><span>Python</span></a></li>
+                        <li><a href="<?php echo base_url('site/course_html');?>" ><span>HTML</span></a></li>
+                        <li><a href="<?php echo base_url('site/css');?>" ><span>CSS</span></a></li>
+                        <li><a href="<?php echo base_url('site/javascript');?>" ><span>Java Script</span></a></li>
+                        <li><a href="<?php echo base_url('site/sql');?>" ><span>SQL / My SQL</span></a></li>
+
                     </ul>
                 </li>
+
+                <!-- <li class="dropdown"> -->
+                    <!-- <a href="javascript:void(0)">Our Product</a> -->
+                    <!-- <i class="fa-solid fa-angle-down"></i> -->
+                    <!-- <ul class="sub-menu"> -->
+                        <!-- <li><a href="javascript:void(0)" ><span>Core Banking Software</span></a></li> -->
+                        <!-- <li><a href="javascript:void(0)" ><span>DSA Loan Management Software</span></a></li> -->
+                        <!-- <li><a href="javascript:void(0)" ><span>Microfinance Software</span></a></li> -->
+                        <!-- <li><a href="javascript:void(0)" ><span>NGO Software</span></a></li> -->
+                        <!-- <li><a href="javascript:void(0)" ><span>MLM Software</span></a></li> -->
+                        <!-- <li><a href="<?php echo base_url() ?>site/impact" ><span>Impact Stories 2</span></a></li> -->
+                    <!-- </ul> -->
+                <!-- </li> -->
+
+                
                 <li class="dropdown">
                     <a href="javascript:void(0)">Media Center</a>
                     <i class="fa-solid fa-angle-down"></i>
                     <ul class="sub-menu">
-                        <li><a href="javascript:void(0)" ><span>Media</span></a></li>
-                        <li><a href="javascript:void(0)" ><span>Our Team</span></a></li>
-                        <li><a href="javascript:void(0)t" ><span>Workshop & Event</span></a></li>
+                         <li><a href="<?php echo base_url() ?>site/media" ><span>Media</span></a></li>
+                        <li><a href="<?php echo base_url() ?>site/team" ><span>Our Team</span></a></li>
                         <!-- <li><a href="<?php echo base_url() ?>site/our_volunteer" ><span>Our volunteer </span></a></li> -->
                     </ul>
                 </li>
@@ -147,7 +157,7 @@
                     <a href="javascript:void(0)">Get Involved</a>
                     <i class="fa-solid fa-angle-down"></i>
                     <ul class="sub-menu">
-                        <li><a href="javascript:void(0)" ><span>Job Oppurtunity</span></a></li>
+                        <li><a href="<?php echo base_url('site/get_opportunity');?>" ><span>Job Oppurtunity</span></a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

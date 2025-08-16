@@ -108,7 +108,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2 class="animated-text cm fw-bold">Our Courses</h2>
+          <h2 class="animated-text cm fw-bold">Popular Course</h2>
           <p class="text-justify" data-aos="fade-up"
           data-aos-duration="3000">
             Our courses in Web Development and Software Development provide hands-on training in coding, design, and industry-standard frameworks—preparing students for real-world projects and in-demand tech careers.
@@ -268,7 +268,7 @@
             <img src="<?php echo base_url() ?>website_assets/team1.jpg" class="" alt="Testimonial 1">
             <div class="text-center ">
               <div class="border my-2 team-name">
-                <h5 class="p-3 fw-bolder">Sunny Raj</h5>
+                <h5 class="p-3 fw-bolder">Manish kumar</h5>
               </div>
             </div>
           </div>
@@ -276,7 +276,7 @@
             <img src="<?php echo base_url() ?>website_assets/team1.jpg" class="" alt="Testimonial 2">
             <div class="text-center">
               <div class="border my-2 team-name">
-                <h5 class="p-3 fw-bolder">Rk Raj</h5>
+                <h5 class="p-3 fw-bolder">Radhe kumar</h5>
               </div>
             </div>
           </div>
@@ -532,23 +532,15 @@
         <div class="col-12 pl-0 pt-4 pb-4 pr-4 col-lg-8 my-2 d-flex align-items-center">
           <div class="border-ll">
             <div class="position-relative">
-              <h2 class="content-before font-phi animated-text">Your contributions make a huge difference</h2>
+              <h2 class="content-before font-phi animated-text fw-bold"> <span class="cm">Our Vision and Mission </span></h2>
             </div>
             <p class="text-justify font-phi" data-aos="fade-up"
             data-aos-duration="3000">
-              Your contributions make a huge difference in the lives of underserved communities. Through your generous
-              support, we are able to provide essential services such as education, healthcare, and empowerment programs
-              that uplift individuals and families. These initiatives create lasting positive change, helping to break
-              the
-              cycle of poverty and provide opportunities for a better future.
+              At DPA Computer Institute, our vision is to empower individuals through quality computer education, equipping them with the digital skills needed to thrive in a rapidly evolving technological world. We strive to become a leading institution known for innovation, inclusivity, and excellence in IT training, enabling students from all backgrounds to unlock their full potential and contribute meaningfully to society.
             </p>
             <p class="text-justify font-phi" data-aos="fade-up"
             data-aos-duration="3000">
-              Your contributions make a huge difference in the lives of underserved communities. Through your generous
-              support, we are able to provide essential services such as education, healthcare, and empowerment programs
-              that uplift individuals and families. These initiatives create lasting positive change, helping to break
-              the
-              cycle of poverty and provide opportunities for a better future.
+              Our mission is to provide accessible, industry-relevant computer education that combines practical training with a strong theoretical foundation. We are committed to fostering a learning environment that promotes curiosity, creativity, and continuous improvement. Through dedicated faculty, up-to-date curriculum, and hands-on experience, DPA Computer Institute aims to prepare students for success in both professional careers and personal growth in the digital age.
             </p>
           </div>
         </div>

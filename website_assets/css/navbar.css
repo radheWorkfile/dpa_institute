@@ -2,9 +2,13 @@
 
 .cm{color:#144558;}
 .cmh{color:#c3260d;}
+.c-orange{color:#c3260d;}
 .bgm{ background: linear-gradient(to right, #43cea2, #185a9d);}
 .bgm_n{background: linear-gradient(to right, #fe8c00, #f83600);}
+.bg_orange{background: linear-gradient(to right, #fe8c00, #f83600);}
+.bg-g{background-color:#d3d0d0;}
 .mtu{margin-top:-1rem;}
+.w-82{width:82%;}
 #preloader {
     position: fixed;
     width: 100%;
@@ -255,7 +259,7 @@
 }
 
 .header .menu .sub-menu a {
-    padding: 6px 24px;
+    padding: 6px 22px;
 }
 
 .header .menu .sub-menu .dropdown>a {

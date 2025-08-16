@@ -85,14 +85,8 @@
                     <a href="javascript:void(0)">Our Supporters</a>
                     <i class="fa-solid fa-angle-down"></i>
                     <ul class="sub-menu">
-                        <li>
-                            <a href="<?php echo base_url() ?>site/about"><span>About Us</span></a>
-                        </li>
-
-                        
-                        <li>
-                            <a href="<?php echo base_url() ?>site/People_Behind"><span>People Behind</span></a>
-                        </li>
+                        <li><a href="<?php echo base_url() ?>site/about"><span>About Us</span></a></li>
+                        <li><a href="<?php echo base_url() ?>site/People_Behind"><span>People Behind</span></a></li>
                         <li>
                             <a href="<?php echo base_url() ?>site/presense"><span>Reach & Presence</span></a>
                         </li>

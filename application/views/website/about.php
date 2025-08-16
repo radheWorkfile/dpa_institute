@@ -32,28 +32,25 @@
                     <div>
                         <p class="text-justify" data-aos="fade-in"
                             data-aos-duration="3000">
-                            [NGO Name] is a non-profit organization dedicated to bringing positive change in the lives of underserved communities through education, healthcare, women empowerment, child development, and environmental protection.
+                            At <b>DPA Computer Institute</b>, we are committed to empowering the next generation of developers and technology professionals with the practical, job-ready skills they need to thrive in today’s digital world. Our mission is to bridge the gap between education and industry by providing hands-on training in web and software development, ensuring students gain not just theoretical knowledge but the ability to apply it in real-world scenarios.
 
-                        <p class="text-justify" data-aos="fade-in"
-                            data-aos-duration="3000"> Since our founding in [Year], we’ve worked across [Location(s)] with the belief that sustainable development begins at the grassroots level. Our efforts are rooted in compassion, inclusion, and lasting impact.</p>
-                        </p>
+
                         <div class="col-12">
                             <div class="border-bottom" data-aos="fade-in"
                                 data-aos-duration="3000">
-                                <b>1. Founded in [Year], focused on grassroots development
-                                </b>
+                                <!-- <b>1. Founded in [Year], focused on grassroots development</b> -->
                                 <p class="text-justify">
-                                    Our NGO was established with the goal of creating long-term social impact at the grassroots level. We believe that true change starts from within the community, which is why our programs are locally designed, community-driven, and sustainable.
+                                    Our curriculum is designed to reflect current industry standards, incorporating tools like Git for version control and project-based learning that mimics real workplace challenges. Guided by experienced instructors, students engage in building full-scale applications, collaborating in team environments, and mastering the tools and workflows used by professional developers every day. Whether you're just starting out or looking to advance your skills, our programs are tailored to meet you where you are.
                                 </p>
                             </div>
                         </div>
                         <div class="col-12 my-3">
                             <div class="border-bottom" data-aos="fade-in"
                                 data-aos-duration="3000">
-                                <b>2. Work in education, health, women empowerment, and environment
-                                </b>
+                                <!-- <b>2. Work in education, health, women empowerment, and environment
+                                </b> -->
                                 <p class="text-justify">
-                                    Our key areas of intervention include child education, community health awareness, menstrual hygiene, women’s skill development, and environmental protection through tree plantation and awareness campaigns
+                                    At DPA, we believe in learning by doing. From day one, students are immersed in practical experiences that build confidence, competence, and a strong foundation for a successful career in tech. Our supportive learning environment, up-to-date curriculum, and dedication to student success make DPA a trusted partner in your journey toward becoming a skilled developer. Learn, code, and succeed — with DPA by your side.
                                 </p>
                             </div>
                         </div>
@@ -85,19 +82,10 @@
                     <h2 class="text-color fw-bolder my-2 animated-text">A Future of Hope and Opportunity</h2>
 
                     <p class="text-justify" data-aos="fade-in"
-                        data-aos-duration="3000">At our NGO, we are passionate about empowering individuals and
-                        communities through education, skills training, and support programs. Our focus
-                        is on creating sustainable solutions that uplift lives and foster self-reliance.We work closely
-                        with underserved communities, addressing their
-                        unique needs and providing resources that enable growth. Through mentorship,
-                        vocational training, and educational initiatives, we open doors to better
-                        opportunities and brighter futures.
+                        data-aos-duration="3000">At <b>DPA Computer Institute</b>, we believe in shaping a future filled with hope and opportunity through quality tech education. Our hands-on training equips students with real-world skills in web and software development, preparing them for success in a rapidly evolving digital world.
                     </p>
                     <p class="text-justify" data-aos="fade-in"
-                        data-aos-duration="3000">Our mission is to create lasting change by providing individuals
-                        with the tools to transform their lives. Together, with the help of our
-                        volunteers and supporters, we are building a future full of hope and
-                        opportunity.</p>
+                        data-aos-duration="3000">With expert guidance, modern tools, and a focus on practical learning, we empower individuals to turn ambition into achievement. At DPA, every student steps into a future where growth, confidence, and opportunity go hand in hand.</p>
                 </div>
 
             </div>
@@ -129,12 +117,10 @@
 
                     </h2>
                     <p class="text-justify" data-aos="fade-up"
-                        data-aos-duration="3000">Our mission is to empower marginalized communities by providing access to education, healthcare, livelihood skills, and equal opportunities.
-                        We work to break the cycle of poverty by creating sustainable, community-driven solutions that uplift individuals with dignity and long-term impact.
+                        data-aos-duration="3000">At <b>DPA Computer Institute</b>, our mission is to bridge the gap between education and industry by providing practical, hands-on training in web and software development. We aim to empower students with the skills, confidence, and mindset needed to thrive in today’s tech-driven world.
                     </p>
                     <p class="text-justify" data-aos="fade-up"
-                        data-aos-duration="3000">We envision a world where every person — regardless of gender, caste, income, or location — can live with dignity, opportunity, and hope.
-                        A world where education is accessible, rights are respected, and communities are self-reliant and thriving.</p>
+                        data-aos-duration="3000">Our vision is to be a catalyst for change—creating a community of skilled professionals who drive innovation and progress. We strive to make tech education accessible, impactful, and future-ready for all.</p>
                 </div>
 
             </div>
@@ -179,9 +165,9 @@
                                     <img src="<?php echo base_url('website_assets/user-dummy.png'); ?>"
                                         class="" alt="Image 1">
                                 </div>
-                                <h5 class="py-1 text-center"> Aarti Devi </h5>
-                                <h6 class="text-center">Women Empowerment Program Beneficiary</h6>
-                                <p class="text-justify">Before joining the skill training program, I had never imagined earning on my own. Today, I support my family and help other women in my village learn too.</p>
+                                <h5 class="py-1 text-center cm"> Krity Kumari</h5>
+                                <h6 class="text-center"><span class="bgm rounded-pill py-1 px-3 text-white text-shadow">Digital Marketing</span></h6>
+                                <p class="text-justify">Before the training, I never imagined earning independently. Now, I support my family and inspire other women in my village to learn and grow through digital skills.</p>
                             </div>
                         </div>
                     </div>
@@ -199,9 +185,9 @@
                                     <img src="<?php echo base_url('website_assets/user-dummy.png'); ?>"
                                         class="" alt="Image 1">
                                 </div>
-                                <h5 class="py-1 text-center"> Radhe ji </h5>
-                                <h6 class="text-center">Women Empowerment Program Beneficiary</h6>
-                                <p class="text-justify">The health awareness sessions taught us how small changes in hygiene could protect our children from illness. It changed our daily life.</p>
+                                <h5 class="py-1 text-center cm"> Radhe kumar </h5>
+                                <h6 class="text-center"><span class="bgm rounded-pill py-1 px-3 text-white text-shadow">Software Development</span></h6>
+                                <p class="text-justify">Software development is about turning ideas into reality through code. It empowers us to solve problems, create innovative solutions, and build the future one program at a time.</p>
                             </div>
                         </div>
                     </div>
@@ -219,9 +205,9 @@
                                     <img src="<?php echo base_url('website_assets/user-dummy.png'); ?>"
                                         class="" alt="Image 1">
                                 </div>
-                                <h5 class="py-1 text-center"> Sunny Raj </h5>
-                                <h6 class="text-center">Real Stories. Real Impact.</h6>
-                                <p class="text-justify">I was unemployed for years. After learning tailoring through the NGO, I now earn a steady income and have started training others too.</p>
+                                <h5 class="py-1 text-center cm"> Sunny Raj </h5>
+                                 <h6 class="text-center"><span class="bgm rounded-pill py-1 px-3 text-white text-shadow">Website Development</span></h6>
+                                <p class="text-justify">Website development is the foundation of a strong online presence. It combines creativity and technology to build engaging, user-friendly sites that connect businesses with their audience effectively.</p>
                             </div>
                         </div>
                     </div>

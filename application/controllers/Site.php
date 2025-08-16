@@ -187,6 +187,61 @@ class Site extends CI_Controller
 	{
 		$this->load->view('website/about');
 	}
+
+	public function c()
+	{
+		$this->load->view('website/course_c');
+	}
+	public function c_plus()
+	{
+		$this->load->view('website/course_c_plus');
+	}
+	public function java()
+	{
+		$this->load->view('website/course_java');
+	}
+	public function python()
+	{
+		$this->load->view('website/course_python');
+	}
+	public function course_html()
+	{
+		$this->load->view('website/course_html');
+	}
+	public function css()
+	{
+		$this->load->view('website/course_css');
+	}
+	public function javascript()
+	{
+		$this->load->view('website/course_javascript');
+	}
+	public function sql()
+	{
+		$this->load->view('website/course_sql');
+	}
+
+	public function web_development()
+	{
+		$this->load->view('website/course_web_development');
+	}
+	public function software_development()
+	{
+		$this->load->view('website/course_software_dev');
+	}
+	public function full_stack_development()
+	{
+		$this->load->view('website/course_full_stack_dev');
+	}
+	public function app_development()
+	{
+		$this->load->view('website/course_app_dev');
+	}
+	public function digital_marketing()
+	{
+		$this->load->view('website/course_digital_mar');
+	}
+
 	public function annual_report()
 	{
 		$this->load->view('website/annual_report');
@@ -539,6 +594,7 @@ class Site extends CI_Controller
 		$name = $this->input->post('name');
 		$email = $this->input->post('email');
 		$mobile = $this->input->post('mobile');
+		$course = $this->input->post('course');
 		$message = $this->input->post('message');
 
 		$company_name = config_item('companyName');
@@ -563,6 +619,7 @@ class Site extends CI_Controller
             <tr><td>Name</td><td>: $name</td></tr>
             <tr><td>Email</td><td>: $email</td></tr>
             <tr><td>Mobile</td><td>: $mobile</td></tr>
+            <tr><td>Course</td><td>: $course</td></tr>
             <tr><td>Message</td><td>: $message</td></tr>
         </table>
     </body>

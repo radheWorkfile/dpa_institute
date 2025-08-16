@@ -49,14 +49,18 @@
                         <h3 class="mb-4 text-white">Quick Link</h3>
                         <ul class="link-left-footer">
                             <li class=""><a href="<?php echo base_url(); ?>Site/index"
-                                    class="text-slate-900 footer-before-hover mb-2">Home</a>
+                                    class="text-slate-900 footer-before-hover mb-2">- Home</a>
                             </li>
                             <li class=" py-md-2"><a href="<?php echo base_url(); ?>Site/about"
-                                    class="text-slate-900 mb-2 footer-before-hover">About Us</a></li>
-                            <li class=""><a href="<?php echo base_url(); ?>site/login"
-                                    class="text-slate-900 mb-2 footer-before-hover">Signin</a></li>
-                            <li class=" py-md-2"><a href="<?php echo base_url(); ?>Site/contact"
-                                    class="text-slate-900 mb-2 footer-before-hover">Contact Us</a></li>
+                                    class="text-slate-900 mb-2 footer-before-hover">- About Us</a></li>
+                            <li class="py-md-1"><a href="<?php echo base_url(); ?>site/login"class="text-slate-900 mb-2 footer-before-hover">- Web development</a></li>
+                            <li class="py-md-1"><a href="<?php echo base_url(); ?>site/login"class="text-slate-900 mb-2 footer-before-hover">- Software development</a></li>
+                            <li class="py-md-1"><a href="<?php echo base_url(); ?>site/login"class="text-slate-900 mb-2 footer-before-hover">- Full stack development</a></li>
+                            <li class="py-md-1"><a href="<?php echo base_url(); ?>site/login"class="text-slate-900 mb-2 footer-before-hover">- Application development</a></li>
+                            <li class="py-md-1"><a href="<?php echo base_url(); ?>site/login"class="text-slate-900 mb-2 footer-before-hover">- Digital marketing</a></li>
+                            <li class="py-md-1"><a href="<?php echo base_url(); ?>site/login"class="text-slate-900 mb-2 footer-before-hover">- Graphic design</a></li>
+                            <li class=" py-md-1"><a href="<?php echo base_url(); ?>Site/contact"
+                                    class="text-slate-900 mb-2 footer-before-hover">- Contact Us</a></li>
 
                         </ul>
                     </div>
@@ -69,19 +73,19 @@
                         <li class="mbb">
                             <i class="fa-solid fa-envelope text-white pe-2"></i>
                             <a href="mailto:ngo@gmail.com" class="text-slate-900 ">
-                                <?php echo $custom_setting->email ? $custom_setting->email : 'ngo@gmail.com'; ?>
+                                <?php echo $custom_setting->email ? $custom_setting->email : 'dpacomputerinstitute@gmail.com'; ?>
                             </a>
                         </li>
                         <li class="mbb my-2">
                             <i class="fa-solid fa-phone text-white pe-2"></i>
                             <a href="tel: +91 9028388889"
-                                class="text-slate-900 ">+91&nbsp;<?php echo $custom_setting->mobile ? $custom_setting->mobile : 'xxxxxxxxxx'; ?>
+                                class="text-slate-900 ">+91&nbsp;<?php echo $custom_setting->mobile ? $custom_setting->mobile : '8434113233'; ?>
                             </a>
                         </li>
                         <li class="my-2 d-flex ">
                             <i class="fa-solid fa-location-dot text-white pe-2"></i>
                             <p class="text-slate-900 ">
-                                <?php echo $custom_setting->address ? $custom_setting->address : '146, Patliputra Colony, P.O. Patliputra Colony, P.S. Patliputra Distt. Patna, (Bihar), Pin Code-800013.'; ?>
+                                <?php echo $custom_setting->address ? $custom_setting->address : 'Shivaji Nagar, Khandak Par, Bihar Sharif, Nalanda - 803101'; ?>
 
                             </p>
                         </li>
@@ -96,7 +100,7 @@
 
 
 
-<section class="container-fluid bg-black border-t-1">
+<section class="container-fluid border-t-1"style="background-color:rgb(3 11 40);">
     <div class="container">
     <div class="row">
     <div class="col-md-12">

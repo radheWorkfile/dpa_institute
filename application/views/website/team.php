@@ -61,10 +61,21 @@
                 <div class="col-12 col-lg-4 col-md-6 my-2">
                     <div class="team-01">
                         <div class="images-before grayscale">
-                            <img src="<?php echo base_url() ?>website_assets/all/event1.png" alt="">
+                            <img src="<?php echo base_url() ?>website_assets/all/our_team_1.png" alt="">
                         </div>
                         <div class="name-Box">
-                              <h4 class="text-white pt-2 mb-0">Sunny Raj</h4>
+                              <h4 class="text-white pt-2 mb-0">Aaditya Raj</h4>
+                              <p class="my-0 py-1 text-secondary">Digital Marketing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 my-2">
+                    <div class="team-01">
+                        <div class="images-before grayscale">
+                            <img src="<?php echo base_url() ?>website_assets/all/our_team_2.png" alt="">
+                        </div>
+                        <div class="name-Box">
+                              <h4 class="text-white pt-2 mb-0">Aryan Raj</h4>
                               <p class="my-0 py-1 text-secondary">Website developer</p>
                         </div>
                     </div>
@@ -72,22 +83,11 @@
                 <div class="col-12 col-lg-4 col-md-6 my-2">
                     <div class="team-01">
                         <div class="images-before grayscale">
-                            <img src="<?php echo base_url() ?>website_assets/all/event2.png" alt="">
-                        </div>
-                        <div class="name-Box">
-                              <h4 class="text-white pt-2 mb-0">Sunny Raj</h4>
-                              <p class="my-0 py-1 text-secondary">Website developer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 col-md-6 my-2">
-                    <div class="team-01">
-                        <div class="images-before grayscale">
-                            <img src="<?php echo base_url() ?>website_assets/all/event1.png" alt="">
+                            <img src="<?php echo base_url() ?>website_assets/all/our_team_3.png" alt="">
                         </div>
                           <div class="name-Box ">
-                              <h4 class="text-white pt-2 mb-0">Sunny Raj</h4>
-                              <p class="my-0 py-1 text-secondary">Website developer</p>
+                              <h4 class="text-white pt-2 mb-0">Kundan Kumar</h4>
+                              <p class="my-0 py-1 text-secondary">Software developer</p>
                         </div>
                     </div>
                 </div>

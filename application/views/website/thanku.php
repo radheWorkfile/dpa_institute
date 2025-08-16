@@ -12,7 +12,7 @@
 <body>
     <?php include("includes/navbar.php"); ?>
     <div class="container-fluid p-0">
-        <img src="<?php echo base_url(); ?>front/ngo_img/banner/thanku_banner.png" class="w-100 ComminHero mt-5" alt="@dued">
+        <img src="<?php echo base_url();?>front/ngo_img/banner/thanku_banner.png" class="w-100 ComminHero" alt="@dued">
     </div>
 
 
