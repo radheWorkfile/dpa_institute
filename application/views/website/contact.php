@@ -141,15 +141,8 @@
     </div>
 
 
-
-
-
-
-
-
-
     <?php include("includes/footer.php"); ?>
     <?php include("includes/script.php"); ?>
 </body>
-
 </html>
+<!-- Best DPA computer institute in Bihar Sharif  -->

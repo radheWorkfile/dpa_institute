@@ -705,7 +705,7 @@ li {
 
 .btn-login-color {
     /* background-color: rgb(49, 232, 49); */
-    background-color: rgb(236 102 0);
+    background-color: #144558;
     padding: 12px 0px;
     border-radius: 50px;
     /* color: black; */
@@ -727,7 +727,7 @@ li {
 
 .auth-sidebar {
     width: 100%;
-    background: linear-gradient(135deg, rgba(5, 2, 28, 0.9), rgb(10, 2, 47));
+    background: linear-gradient(135deg, rgb(2 28 15 / 90%), rgb(47 29 2));
     padding: 40px;
     color: white;
     border-radius: 15px 0px 0px 15px;
@@ -786,7 +786,7 @@ li {
 }
 
 #sign-in-bg {
-    /* background:url("../Hero-section/donate_bg.png");
+    /* background:url("../Hero-section/login_page.png");
     background-size: cover;
     background-position: center; */
     border-bottom: 1px solid white;
@@ -1114,7 +1114,7 @@ li {
     }
 
     #login-left-n {
-        background: url("../Hero-section/donate_bg.png");
+        background: url("../Hero-section/login_page.png");
         padding: 20px;
         display: flex;
         align-items: center;
@@ -1213,7 +1213,7 @@ li {
     }
 
     #login-left-n {
-        background: url("../Hero-section/donate_bg.png");
+        background: url("../Hero-section/login_page.png");
         padding: 10px;
         display: flex;
         align-items: center;
@@ -1360,7 +1360,7 @@ li {
     }
 
     #login-left-n {
-        background: url("../Hero-section/donate_bg.png");
+        background: url("../Hero-section/login_page.png");
         padding: 10px;
         display: flex;
         align-items: center;
@@ -1422,7 +1422,7 @@ li {
 
 
     #login-left-n {
-        background: url("../Hero-section/donate_bg.png");
+        background: url("../Hero-section/login_page.png");
         padding: 20px;
         display: flex;
         align-items: center;
@@ -1586,7 +1586,7 @@ li {
     }
 
     #login-left-n {
-        background: url("../Hero-section/donate_bg.png");
+        background: url("../Hero-section/login_page.png");
         padding: 10px 54px 20px 50px;
         display: flex;
         align-items: center;
@@ -1789,7 +1789,7 @@ li {
     }
 
     #login-left-n {
-        background: url("../Hero-section/donate_bg.png");
+        background: url("../Hero-section/login_page.png");
         padding: 10px 54px 20px 100px;
         display: flex;
         align-items: center;
@@ -2047,7 +2047,7 @@ li {
     }
 
     #login-left-n {
-        background: url("../Hero-section/donate_bg.png");
+        background: url("../Hero-section/login_page.png");
         padding: 10px 54px 20px 100px;
         display: flex;
         align-items: center;

@@ -127,6 +127,7 @@
         </div>
     </div>
     <!-- marquee images section end -->
+     <!-- Best DPA computer institute in Bihar Sharif  -->
 
 
     <?php include("includes/footer.php"); ?>

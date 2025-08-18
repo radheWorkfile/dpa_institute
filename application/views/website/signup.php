@@ -9,6 +9,9 @@
     <title>Sign Up || NGO</title>
     <?php include("includes/css.php"); ?>
     <style>
+        .bg-new{
+         background-color: rgb(4 4 32) !important;
+        }
         @-webkit-keyframes spin {
             0% {
                 -webkit-transform: rotate(0deg);
@@ -207,7 +210,7 @@
 
 
                 <div class="col-12 col-lg-7 my-2">
-                    <div class="auth-main bg-black">
+                    <div class="auth-main bg-new">
                         <form class="auth-form" method="post" id="registerDet" data-id="<?php echo $newRegisteration; ?>">
                             <div class="form-header">
                                 <h1 class="text-center text-white animated-text">Sign Up</h1>
@@ -419,5 +422,6 @@
 
 
 </body>
+<!-- Best DPA computer institute in Bihar Sharif  -->
 
 </html>

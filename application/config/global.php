@@ -2,18 +2,18 @@
 
 defined('BASEPATH') OR exit('Can we play bubu together ?');
     # Basic Setting Details
-	$config['logo_name'] = "NGO";
-	$config['software'] = "Non Government Organisation";
+	$config['logo_name'] = "DPA Computer Institute";
+	$config['software'] = "DPA Computer Institute";
 
-    $config['company_name'] = "Non-governmental organization";
-    $config['companyName'] = "NGO";
-    $config['mobile_number_1'] = "9028388889";
-    // $config['mobile_number_2'] = "9572852742";
-    $config['email'] = "camwelsolution@gmail.com";
+    $config['company_name'] = "DPA Computer Institute";
+    $config['companyName'] = "DPA Computer Institute";
+    $config['mobile_number_1'] = "8434113233";
+    $config['email'] = "info@dpacomputerinstitute.com";
     $config['address'] = "Shivaji Nagar, Khandak Par, Bihar Sharif, Nalanda 803101.";
-    $config['aboutCompany'] = "An NGO is a nonprofit organization dedicated to addressing social environmental or humanitarian issues It operates independently from government control or influence striving to create positive change through various initiatives NGOs focus on improving communities advocating for human rights environmental protection and supporting vulnerable populations worldwide ";
-
-    $config['ID_EXT'] = "NGO-";
+    $config['aboutCompany_t'] = "Best DPA Computer Institute in Bihar Sharif offers top IT and computer training. With expert faculty and practical learning, we ensure career success and student growth, focusing on understudeok in the digital era.";
+    $config['aboutCompany_a'] = "Best DPA computer institute in Bihar Sharif is dedicated to empowering the next generation of developers and technology professionals. We equip students with practical skills needed to succeed in the digital world. Our curriculum focuses on hands-on training in web and software development, helping students grasp fundamentals through real-world applications. We believe in learning by doing, designing programs that simulate industry environments and challenges, preparing students for actual job roles from day one.";
+    $config['aboutCompany_b'] = "DPA Computer institute empowers students with essential coding skills, offering handson training in html, css, php, javascript, and popular frameworks. with expert instructors and realworld projects, students also master git for version control. join dpa to build a strong foundation in web development and boost your career with industryrelevant tech skills. learn, code, and succeed!";
+    $config['ID_EXT'] = "DPA Computer Institute-";
     $config['logo_dark'] = "uploads/company/664a8d908de035a5badc103883fe4773.png";
     $config['logo_sm'] = "uploads/company/logo-sm.png";
     $config['logo_light'] = "uploads/company/logo-light.png";
@@ -27,9 +27,9 @@ defined('BASEPATH') OR exit('Can we play bubu together ?');
 	//md5(base64_encode('amit'));
 	$config['get_state'] ='29';
 	$config['district'] ='31';
-	$config['zipCode'] ='800009';
-	$config['cRegistration']='BR0193458997';
-	$config['cPanNu'] ='BKMPK4221L';
-	$config['cGstNu'] ='10BKMPK4221L';
-	$config['compUrl'] ='www.camwel.com';
+	$config['zipCode'] ='803101';
+	$config['cRegistration']='';
+	$config['cPanNu'] ='';
+	$config['cGstNu'] ='';
+	$config['compUrl'] ='www.digitalpathacademy.com';
    

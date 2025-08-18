@@ -51,6 +51,7 @@
         </div>
     </section>
     <!-- About us end -->
+     <!-- Best DPA computer institute in Bihar Sharif  -->
 
     <?php include("includes/footer.php"); ?>
     <?php include("includes/script.php"); ?>

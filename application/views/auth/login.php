@@ -60,7 +60,7 @@
 
 
     .light-sky {
-      background-color: #43b17e;
+      background-color: #36ada6;
       padding: 25px;
     }
 
@@ -133,7 +133,7 @@
       height: 50px;
       width: 50px;
       border-radius: 50px;
-      background-color: #43b17e;
+      background-color: #36ada6;
       position: absolute;
       right: -9px;
       top: -8px;
@@ -151,7 +151,7 @@
 
     @media (min-width:0px) and (max-width:768px) {
       .card {
-        background: #43b17e;
+        background: #36ada6;
         color: white;
         padding: 20px 20px 0px 20px;
         border-radius: 8px 0px 0px 8px;
@@ -165,14 +165,14 @@
       }
 
       #loginAdmin {
-        background: radial-gradient(circle, #43b17e08 2%, #000000 70%);
+        background: radial-gradient(circle, #36ada608 2%, #000000 70%);
         border-radius: 0px;
       }
     }
 
     @media (min-width:768px) {
       .card {
-        background: #43b17e;
+        background: #36ada6;
         color: white;
         padding: 20px 20px 20px 20px;
         border-radius: 8px 0px 0px 8px;
@@ -186,7 +186,7 @@
       }
 
       #loginAdmin {
-        background: radial-gradient(circle, #43b17e08 2%, #000000 70%);
+        background: radial-gradient(circle, #36ada608 2%, #000000 70%);
         border-radius: 10px;
       }
     }
@@ -247,7 +247,7 @@
                     </div>
                   </div>
                   <div class="mb-4"> <a href="javascript:void(0);" id="forgotPass"
-                      class="perFrmActn btn-link text-primary">Forgot Password?</a> </div>
+                      class="perFrmActn btn-link text-primary text-white">Forgot Password?</a> </div>
                 </div>
                 <div class="text-center mb-4">
                   <button type="submit" class="btn btn-primary btn-block perFrmActn" id="cnfrmSignIn">Sign in</button>

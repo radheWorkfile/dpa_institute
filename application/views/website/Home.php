@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DPA Computer Institute | Best Computer Institute in Bihar Sharif | Home Page</title>
+    <title>Best DPA computer institute in Bihar Sharif | Website Development</title>
+    <meta name="description" content="Best DPA Computer Institute in Bihar Sharif offers top IT and computer training. With expert faculty and practical learning, we ensure career success and student growth, focusing on understudeok in the digital era!" />
+    <meta  name="keywords" content="Best DPA computer institute in Bihar Sharif, DPA, DPA Computer, DPA Computer Institute, computer training, IT training, software development, web development, website development, website development in Bihar Sharif, application development, DPA Computer Institute Bihar Sharif, DPA Computer Institute is the best course provider for IT and computer training, top IT institute Bihar, software training Bihar Sharif, web design training, learn programming Bihar Sharif"  />
+    <meta name="author" content="digitalpathacademy"/>
+    <meta name="rating" content="general" />
+    <meta name="rights" content="digitalpathacademy.com" />
+    <meta property="og:title" content="Best DPA computer institute in Bihar Sharif | DPA computer institute" />
+    <meta property="og:country_name" content="India" />
+    <meta property="og:phone_number" content="+91 8434113233" />
+    <meta property="og:description"  content="Best DPA computer institute in Bihar Sharif is dedicated to empowering the next generation of developers and technology professionals. We equip students with practical skills needed to succeed in the digital world. Our curriculum focuses on hands-on training in web and software development, helping students grasp fundamentals through real-world applications" />
+    <meta property="og:url" content="https://digitalpathacademy.com" />
+    <meta property="og:image" content="https://digitalpathacademy.com/uploads/banner/dpa-computer-institute-banner.JPG" />
+    <meta property="og:street_address" content="Shivaji Nagar, Khandak Par, Bihar Sharif, Nalanda - 803101" />
+    <!-- <meta property="og:email" content="mlmgigsoftware@gmail.com" /> -->
+    <meta property="og:see_also" content="https://digitalpathacademy.com/site" />
+    <meta property="og:image:secure_url" content="https://digitalpathacademy.com/website_assets/Hero-section/web-design.png" />
+    <meta property="og:see_also" content="https://digitalpathacademy.com/site/contact" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="450" />
+    <meta property="twitter:title" content="Web Development | DPA Computer Institute" />
+    <meta property="twitter:description" content="Web development involves creating and maintaining websites or web applications. It includes front-end design, back-end coding, and server management to ensure functionality, performance, and a seamless user experience online."/>
+    <meta name="twitter:image" content="https://digitalpathacademy.com/website_assets/Hero-section/software-dev.png" />
+    <meta name="twitter:creator" content="dpacomputerinstitute" />
+    <meta itemprop="name" content="Best Software Training Institute in Bihar Sharif | DPA Computer Institute" />
+    <meta itemprop="description" content="Software development is the process of designing, creating, testing, and maintaining software applications using programming languages, tools, and frameworks to solve problems or perform specific tasks for users." />
+    <meta itemprop="image" content="https://digitalpathacademy.com/website_assets/Hero-section/software_development_banner.png" />
+    <meta name="googlebot" content="all"/>
+    <meta name="distribution" content="digitalpathacademy"/>
+    <meta name="audience" content="All"/>
+    <meta name="revisit-after" content="Always" />
+    <meta name="expires" content="never" />
+    <meta name="robots" content="follow, index" />
+    <!-- <meta name="google-site-verification" content="BtLN0Wmqk5RMaqJX0Zffs77Q7jnwURMtuOrR3zVn8vM" /> -->
   <?php include("includes/css.php"); ?>
 </head>
 
@@ -22,12 +53,13 @@
         <?php foreach ($bannerList as $banner): ?>
       <div class="swiper-slide">
         <div class="position-relative">
-        <img src="<?php echo base_url($banner['banner']); ?>" class="swiperimg" alt="">
+        <img src="<?php echo base_url($banner['banner']); ?>" class="swiperimg" alt="DPA Computer Institute Banner" title="DPA Computer Institute Banner">
           <div class="position-absolute top-50 slider-text-value">
           <h5 class="text-white text-shadow text-bold animated-text fw-bold"><span class="bg-danger py-1 px-4 rounded-pill"><?php echo ($banner['heading']); ?></span></h2></br>
-          <p class="text-shadow text-white text-justify fw-normal"style="font-size:14px;"><?php echo ($banner['content']); ?></p><br>
-          <button class="btn btn-outline-info rounded-pill py-1 px-3 fw-bold"style="border-top:4px solid #0dcaed;">Contact Us</button>
-          <button class="btn btn-outline-info rounded-pill py-1 px-3 fw-bold"style="border-top:4px solid #0dcaed;">Read More</button>
+          <p class="text-shadow text-white text-justify fw-normal"style="font-size:16px;text-align:center;text-shadow:1px 1px 0 #444,2px 2px 3px rgba(0, 0, 0, 0.4);">
+        <?php echo ($banner['content']); ?></p><br>
+          <button class="btn rounded-pill py-1 px-3 fw-bold"style="border-top: 4px solid #1f5e64;background-color: #1c737c;color: white;">Contact Us</button>
+          <button class="btn rounded-pill py-1 px-3 fw-bold"style="border-top: 4px solid #1f5e64;background-color: #1c737c;color: white;">Read More</button>
           </div>
         </div>
       </div>
@@ -36,24 +68,31 @@
       <?php else: ?>
       <div class="swiper-slide">
         <div class="position-relative">
-          <img src="<?php echo base_url(); ?>website_assets/new-slider3.jpg" class="swiperimg" alt="">
+          <img src="<?php echo base_url(); ?>website_assets/dpa-computer-institute-banner.jpg" class="swiperimg" alt="DPA Computer Institute Banner" title="DPA Computer Institute Banner">
           <div class="position-absolute top-50 slider-text-value">
-            <h2 class="text-white animated-text">Web & Software Development</h2>
-            <p class="text-white">
+            <h5 class="text-white text-shadow text-bold animated-text fw-bold"><span class="bg-danger py-1 px-4 rounded-pill">Web & Software Development</h2></br>
+            <p class="text-shadow text-white text-justify fw-normal"style="font-size:16px;text-align:center;text-shadow:1px 1px 0 #444,2px 2px 3px rgba(0, 0, 0, 0.4);">
              DPA Computer Institute empowers students with essential skills through hands-on training in web and software development, using modern languages, frameworks, and Git. Expert instructors and real-world projects help students build strong foundations. Learn, code, and succeed with DPA!
             </p>
+            <button class="btn rounded-pill py-1 px-3 fw-bold"style="border-top: 4px solid #1f5e64;background-color: #1c737c;color: white;">Contact Us</button>
+          <button class="btn rounded-pill py-1 px-3 fw-bold"style="border-top: 4px solid #1f5e64;background-color: #1c737c;color: white;">Read More</button>
           </div>
         </div>
       </div>
       <div class="swiper-slide">
+        
         <div class="position-relative">
-          <img src="<?php echo base_url(); ?>website_assets/new-slider2.jpg" class="swiperimg" alt="">
-          <div class="position-absolute top-50 slider-text-value">
-            <h2 class="text-white animated-text">Welcome in DPA Computer Institute</h2>
-            <p class="text-white">
+          <img src="<?php echo base_url(); ?>website_assets/dpa-computer-institute-banner-1.jpg" class="swiperimg" alt="DPA Computer Institute Banner 1" title="DPA Computer Institute Banner 1">
+
+           <div class="position-absolute top-50 slider-text-value">
+            <h5 class="text-white text-shadow text-bold animated-text fw-bold"><span class="bg-danger py-1 px-4 rounded-pill">Welcome in DPA Computer Institute</h2></br>
+            <p class="text-shadow text-white text-justify fw-normal"style="font-size:16px;text-align:center;text-shadow:1px 1px 0 #444,2px 2px 3px rgba(0, 0, 0, 0.4);">
              DPA Computer Institute empowers students with essential skills through hands-on training in web and software development, using modern languages, frameworks, and Git. Expert instructors and real-world projects help students build strong foundations. Learn, code, and succeed with DPA!
             </p>
+            <button class="btn rounded-pill py-1 px-3 fw-bold"style="border-top: 4px solid #1f5e64;background-color: #1c737c;color: white;">Contact Us</button>
+          <button class="btn rounded-pill py-1 px-3 fw-bold"style="border-top: 4px solid #1f5e64;background-color: #1c737c;color: white;">Read More</button>
           </div>
+
         </div>
       </div>
       <?php endif; ?>
@@ -73,7 +112,7 @@
       <div class="row">
 
         <div class="col-lg-4 order-2 order-lg-0">
-          <p><img src="<?php echo base_url(); ?>website_assets/about.png" class="w-100" alt="">
+          <p><img src="<?php echo base_url(); ?>website_assets/about.png" class="w-100" alt="about" title="about">
           </p>
         </div>
         <div class="col-lg-8 d-flex align-items-center">
@@ -81,11 +120,11 @@
             <div class="position-relative d-inline">
               <span class="subtitle-part">About Us</span>
             </div>
-            <h2 class="text-color fw-bolder my-2 animated-text"><span style="color:#144558;">Driven by Vision,</span> Powered by Opportunity</h2>
+            <h1 class="text-color fw-bolder my-2 animated-text h1-m"><span style="color:#144558;">Driven by Vision,</span> Powered by Opportunity</h1>
 
             <p class="text-justify" data-aos="fade-left"
             data-aos-duration="3000">
-           <b>DPA Computer Institute</b> is dedicated to empowering the next generation of developers and technology professionals by equipping them with the practical skills needed to succeed in the digital world. Our curriculum emphasizes hands-on training in <b>web and software development</b>, helping students understand the fundamentals through real-world application. We believe in learning by doing, which is why our programs are designed to simulate industry environments and challenges, preparing students for actual job roles from day one.
+           <b>Best DPA computer institute in Bihar Sharif</b> is dedicated to empowering the next generation of developers and technology professionals. We equip students with practical skills needed to succeed in the digital world. Our curriculum focuses on hands-on training in web and software development, helping students grasp fundamentals through real-world applications. We believe in learning by doing, designing programs that simulate industry environments and challenges, preparing students for actual job roles from day one.
             </p>
             <p class="text-justify" data-aos="fade-left"
             data-aos-duration="3000">
@@ -117,7 +156,7 @@
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <div class="border p-2 rounded">
             <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/html.jpg" class="w-100 rounded effect-bllackky" alt="">
+              <img src="<?php echo base_url(); ?>website_assets/all/html.jpg"  class="w-100 rounded effect-bllackky" title="html" alt="html">
             </div>
             <div class="p-2">
               <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">HTML</span></h4>
@@ -131,7 +170,7 @@
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <div class="border p-2 rounded">
             <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/css.jpg" class="w-100 rounded effect-bllackky" alt="">
+              <img src="<?php echo base_url(); ?>website_assets/all/css.jpg" class="w-100 rounded effect-bllackky" title="css" alt="css">
             </div>
             <div class="p-2">
             <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">CSS</span></h4>
@@ -148,7 +187,7 @@
         <div class="col-12 col-md-6 col-lg-4 my-3">
           <div class="border p-2 rounded">
             <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/java_script.jpg" class="w-100 rounded effect-bllackky" alt="">
+              <img src="<?php echo base_url(); ?>website_assets/all/java_script.jpg" class="w-100 rounded effect-bllackky" title="java_script" alt="java_script">
             </div>
           <div class="p-2">
           <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">JavaScript</span></h4>
@@ -163,7 +202,7 @@
          <div class="col-12 col-md-6 col-lg-4 my-3">
           <div class="border p-2 rounded">
             <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/java.jpg" class="w-100 rounded effect-bllackky" alt="">
+              <img src="<?php echo base_url(); ?>website_assets/all/java.jpg" class="w-100 rounded effect-bllackky" title="java" alt="java">
             </div>
             <div class="p-2">
             <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Java</span></h4>
@@ -178,7 +217,7 @@
          <div class="col-12 col-md-6 col-lg-4 my-3">
           <div class="border p-2 rounded">
             <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/php.jpg" class="w-100 rounded effect-bllackky" alt="">
+              <img src="<?php echo base_url(); ?>website_assets/all/php.jpg" class="w-100 rounded effect-bllackky" title="php" alt="php">
             </div>
             <div class="p-2">
             <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">PHP</span></h4>
@@ -193,7 +232,7 @@
          <div class="col-12 col-md-6 col-lg-4 my-3">
           <div class="border p-2 rounded">
             <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/Python.jpg" class="w-100 rounded effect-bllackky" alt="">
+              <img src="<?php echo base_url(); ?>website_assets/all/Python.jpg" class="w-100 rounded effect-bllackky" title="Python" alt="Python">
             </div>
             <div class="p-2">
             <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Python</span></h4>
@@ -217,7 +256,7 @@
     <div class="container">
       <div class="row">
         <p class="col-12">
-        <h2 class="text-center fw-bolder animated-text"><span class="rounded-pill bgm text-white px-5 py-1">Our Management Team</span></h2>
+        <h3 class="text-center fw-bolder animated-text"><span class="rounded-pill bgm text-white px-5 py-1">Our Management Team</span></h3>
         <p class="text-center" data-aos="fade-up"
         data-aos-duration="3000">
           Our dedicated management team is the driving force behind our mission. With a deep commitment to social
@@ -331,7 +370,7 @@
     <div class="container">
       <div class="row">
         <p class="col-12 my-3 my-lg-4">
-        <h2 class="animated-text fw-bolder text-center">Our Placed Students</h2>
+        <h4 class="animated-text fw-bolder text-center h4-m">Our Placed Students</h4>
         <p class="text-center py-2" data-aos="fade-up"
         data-aos-duration="3000">
           Our placed students are proof of success—trained at DPA Institute, they mastered in-demand skills, gained industry exposure, <br>and secured top jobs through our dedicated, skill-focused training programs.
@@ -343,7 +382,7 @@
           <div class="item border p-2 d-md-flex">
             <div class="w-event-left">
               <!-- <img src="<?php echo base_url($event['e_images']); ?>" alt="Product 1" style="height:340px;"> -->
-              <img src="<?php echo base_url($event['e_images']);?>" alt="Product 1" style="height:340px;">
+              <img src="<?php echo base_url($event['e_images']);?>" alt="Product 1" style="height:340px;" title="placed_stu_img_1" alt="placed_stu_img_1">
             </div>
             <div class="decription-right-event d-flex align-items-center">
               <div>
@@ -356,7 +395,7 @@
           <?php else: ?>
             <div class="item border p-2 d-md-flex">
             <div class="w-event-left">
-              <img src="<?php echo base_url() ?>website_assets/event1.png" alt="Product 1">
+              <img src="<?php echo base_url() ?>website_assets/event1.png" alt="event1">
             </div>
             <div class="decription-right-event d-flex align-items-center">
               <div>
@@ -368,7 +407,7 @@
           </div>
           <div class="item border p-2 d-md-flex">
             <div class="w-event-left">
-              <img src="<?php echo base_url()?>website_assets/event1.png" class="" alt="Product 1">
+              <img src="<?php echo base_url()?>website_assets/event1.png" class="" alt="event1">
             </div>
             <div class="decription-right-event d-flex align-items-center">
               <div>
@@ -396,7 +435,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 mb-2 mb-lg-4">
-          <h1 class="mb-2 text-white animated-text">Our Impact</h1>
+          <h4 class="mb-2 text-white animated-text h4-m">Our Impact</h4>
           <p class="text-justify text-secondary" data-aos="fade-up"
           data-aos-duration="3000">
             Our impact shines through the lives transformed by education, healthcare, and empowerment. Working alongside local leaders and volunteers, we support underserved communities in building resilience, unlocking potential, and shaping a brighter, sustainable future.
@@ -406,7 +445,7 @@
           <div class="border bordetr-white p-3">
             <div class="d-flex justify-content-between align-items-center">
               <div class="d-flex justify-content-center">
-                <img src="<?php echo base_url(); ?>website_assets/all/clients.png" class="counter-part-img" alt="">
+                <img src="<?php echo base_url(); ?>website_assets/all/clients.png" class="counter-part-img" alt="clients1">
               </div>
               <div class="">
                 <h1 class="text-center text-white font-phi stoke-number-counter py-2">200+</h1>
@@ -419,7 +458,7 @@
           <div class="border bordetr-white p-3">
             <div class="d-flex justify-content-between align-items-center">
               <div class="d-flex justify-content-center">
-                <img src="<?php echo base_url(); ?>website_assets/all/project.png" class="counter-part-img" alt="">
+                <img src="<?php echo base_url(); ?>website_assets/all/project.png" class="counter-part-img" alt="clients2">
               </div>
               <div class="">
                 <h1 class="text-center text-white font-phi stoke-number-counter py-2">160+</h1>
@@ -468,7 +507,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h1 class="font-phi animated-text">Frequently Asked Question(FAQ)</h1>
+          <h5 class="font-phi animated-text h5-m">Frequently Asked Question(FAQ)</h5>
         </div>
         <div class="col-lg-7 wow ZoomIn aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
           <div class="faq-item my-2 my-lg-3">
@@ -509,7 +548,7 @@
         </div>
         <div class="col-12 col-lg-5 my-2 d-flex justify-content-center">
           <div>
-            <img src="<?php echo base_url(); ?>website_assets/all/faq.png" class="w-faq-ngo" alt="">
+            <img src="<?php echo base_url(); ?>website_assets/all/faq.png" class="w-faq-ngo" alt="faq" title="faq Image">
           </div>
         </div>
       </div>
@@ -532,7 +571,7 @@
         <div class="col-12 pl-0 pt-4 pb-4 pr-4 col-lg-8 my-2 d-flex align-items-center">
           <div class="border-ll">
             <div class="position-relative">
-              <h2 class="content-before font-phi animated-text fw-bold"> <span class="cm">Our Vision and Mission </span></h2>
+              <h6 class="content-before font-phi animated-text fw-bold h6-m"> <span class="cm">Our Vision and Mission </span></h6>
             </div>
             <p class="text-justify font-phi" data-aos="fade-up"
             data-aos-duration="3000">

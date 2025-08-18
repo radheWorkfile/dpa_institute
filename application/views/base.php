@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <?php $custom_setting = $this->db->select('*')->get('setting')->row(); ?>
-
+<!-- Best DPA computer institute in Bihar Sharif  -->
 <!DOCTYPE html>
 <html lang="en">
 

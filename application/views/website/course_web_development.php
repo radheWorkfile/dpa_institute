@@ -245,23 +245,8 @@
       </div>
     </div>
   </div>
+      <!-- Best DPA computer institute in Bihar Sharif  -->
   <!-- our courses section end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <?php include("includes/footer.php"); ?>
     <?php include("includes/script.php"); ?>

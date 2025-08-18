@@ -1,3 +1,4 @@
+<!--  Best DPA computer institute in Bihar Sharif  -->
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 

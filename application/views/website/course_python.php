@@ -83,7 +83,7 @@
                             <p class="mt-2 px-3 text-shadow"><span class="fw-bold">Class Size :</span><span class="float-end">20 Persion</span></p>
                           </div>
                           <div class="p-1 bg-g  border-bottom border-secondary">
-                            <p class="mt-2 px-3 text-shadow"><span class="fw-bold">Price :</span><span class="float-end">Rs - 6,000.00 </span></p>
+                            <p class="mt-2 px-3 text-shadow"><span class="fw-bold">Price :</span><span class="float-end">Rs ------</span></p>
                           </div>
                        </div>
 
@@ -101,314 +101,313 @@
     </div>
     <!-- Who We Are end -->
 
-
+    
+    
     <!-- our courses section start -->
-  <div class="container-fluid my-lg-4">
+    <div class="container-fluid my-lg-4">
     <div class="container mb-4">
-      <div class="row">
-
-
-          <div class="col-12">
-          <h2 class="animated-text cm fw-bold">Popular Course</h2>
-          <p class="text-justify" data-aos="fade-up"
-          data-aos-duration="3000">
-          Our courses in Web Development and Software Development provide hands-on training in coding, design, and industry-standard frameworks—preparing students for real-world projects and in-demand tech careers.
-          </p>
-          </div>
-
-<div class="col-12 col-md-6 col-lg-4 my-3">
-  <div class="border p-2 rounded">
+    <div class="row">
+    
+    <div class="col-12">
+    <h2 class="animated-text cm fw-bold">Popular Course</h2>
+    <p class="text-justify" data-aos="fade-up"
+    data-aos-duration="3000">
+    Our courses in Web Development and Software Development provide hands-on training in coding, design, and industry-standard frameworks—preparing students for real-world projects and in-demand tech careers.
+    </p>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
     <div class="effect-on-image">
-      <img src="<?php echo base_url(); ?>website_assets/all/course_web.jpg" class="w-100 rounded effect-bllackky" alt="HTML Image">
+    <img src="<?php echo base_url(); ?>website_assets/all/course_web.jpg" class="w-100 rounded effect-bllackky" alt="HTML Image">
     </div>
     <div class="p-2">
-      <h4 class="fw-bold cm mt-2">
-        <span class="bgm py-1 px-3 rounded-pill text-white">Web Development</span>
-      </h4>
-      <p><b class="cmh fw-bold">Web Development.</b></p>
-      <p class="text-justify mtu pb-4">
-        Web Development is the standard for creating web pages, structuring content, and linking documents on the internet using HTML, tags, and elements.
-      </p>
+    <h4 class="fw-bold cm mt-2">
+    <span class="bgm py-1 px-3 rounded-pill text-white">Web Development</span>
+    </h4>
+    <p><b class="cmh fw-bold">Web Development.</b></p>
+    <p class="text-justify mtu pb-4">
+    Web Development is the standard for creating web pages, structuring content, and linking documents on the internet using HTML, tags, and elements.
+    </p>
     </div>
-  </div>
-</div>
-
-
-
-
-
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/course_software.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-              <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Software Development</span></h4>
-              <p><b class="cmh fw-bold">HyperText Markup Language.</b></p>
-              <p class="text-justify mtu">
-                HyperText Markup Language (HTML) is the standard language for creating web pages, structuring content, and linking documents on the internet using tags and elements..
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/course_fullstack.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-              <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Full Stack Development</span></h4>
-              <p><b class="cmh fw-bold">HyperText Markup Language.</b></p>
-              <p class="text-justify mtu">
-                HyperText Markup Language (HTML) is the standard language for creating web pages, structuring content, and linking documents on the internet using tags and elements..
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/graphic_design.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-              <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Graphic Disign</span></h4>
-              <p><b class="cmh fw-bold">HyperText Markup Language.</b></p>
-              <p class="text-justify mtu">
-                HyperText Markup Language (HTML) is the standard language for creating web pages, structuring content, and linking documents on the internet using tags and elements..
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/course_application.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-              <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Application Development</span></h4>
-              <p><b class="cmh fw-bold">HyperText Markup Language.</b></p>
-              <p class="text-justify mtu">
-                HyperText Markup Language (HTML) is the standard language for creating web pages, structuring content, and linking documents on the internet using tags and elements..
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/course_degital_marketing.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-              <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Digital Marketing</span></h4>
-              <p><b class="cmh fw-bold">HyperText Markup Language.</b></p>
-              <p class="text-justify mtu">
-                HyperText Markup Language (HTML) is the standard language for creating web pages, structuring content, and linking documents on the internet using tags and elements..
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/html.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-              <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">HTML</span></h4>
-              <p><b class="cmh fw-bold">HyperText Markup Language.</b></p>
-              <p class="text-justify mtu">
-                HyperText Markup Language (HTML) is the standard language for creating web pages, structuring content, and linking documents on the internet using tags and elements..
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/css.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">CSS</span></h4>
-            <p><b class="cmh fw-bold">Cascading Style Sheets.</b></p>
-            <p class="text-justify mtu">
-            Cascading Style Sheets (CSS) is the standard language for styling web pages, controlling layout, colors, fonts, and enhancing the visual appearance of HTML content.
-            </p>
-            </div>
-
-          </div>
-        </div>
-
-
-        <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/java_script.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-          <div class="p-2">
-          <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">JavaScript</span></h4>
-          <p><b class="cmh fw-bold">JavaScript Programming Language.</b></p>
-          <p class="text-justify mtu">
-          JavaScript is a popular programming language used to create dynamic, interactive effects within web browsers, enhancing user experience and enabling client-side scripting.
-          </p>
-          </div>
-          </div>
-        </div>
-
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/java.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Java</span></h4>
-            <p><b class="cmh fw-bold">Java Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Java is a versatile, object-oriented programming language widely used for building cross-platform applications, from web and mobile to enterprise software and embedded systems.
-            </p>
-            </div>
-          </div>
-        </div>
-
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/php.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">PHP</span></h4>
-            <p><b class="cmh fw-bold">PHP Programming Language.</b></p>
-            <p class="text-justify mtu">
-            PHP is a popular server-side scripting language used to develop dynamic and interactive websites, enabling seamless database integration and backend web development.
-            </p>
-            </div>
-          </div>
-        </div>
-
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/Python.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Python</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
-
-
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-        <div class="border p-2 rounded">
-            <div class="effect-on-image">
-            <img src="<?php echo base_url(); ?>website_assets/all/sql.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">SQL / My SQL</span></h4>
-            <p><b class="cmh fw-bold">SQL & My SQL Query Languages.</b></p>
-            <p class="text-justify mtu">
-            SQL and MQL are powerful languages used to interact with databases—SQL for managing structured data, and MQL for querying document-based systems like MongoDB.
-            </p>
-            </div>
-        </div>
-        </div>
-     
-
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/j-query.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">J-Query</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
-
-
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/bootstrap.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Bootstrap / Tailwind </span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
-
-
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/laravel.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white"> Laravel Framwork</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
-
-          <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/course_c_language.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white"> C Language</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
-
-          <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/course_c_plus.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white"> C++ Language </span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
-
-
-
-      </div>
     </div>
-  </div>
-  <!-- our courses section end -->
+    </div>
+    
+    
+    
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/course_software.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Software Development</span></h4>
+    <p><b class="cmh fw-bold">Software Development</b></p>
+    <p class="text-justify mtu">
+    Software Development is the process of designing, coding, testing, and maintaining applications or systems to solve problems, automate tasks, or enhance digital user experiences.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/course_fullstack.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Full Stack Development</span></h4>
+    <p><b class="cmh fw-bold">Full Stack Development</b></p>
+    <p class="text-justify mtu">
+    Full Stack Development involves building both front-end (client-side) and back-end (server-side) parts of a website or application, handling databases, servers, interfaces, and overall functionality.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/graphic_design.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Graphic Disign</span></h4>
+    <p><b class="cmh fw-bold">Graphic Disign</b></p>
+    <p class="text-justify mtu">
+    Graphic Design is the art of creating visual content using typography, images, and layout to communicate messages, enhance branding, and engage audiences across digital and print media.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/course_application.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Application Development</span></h4>
+    <p><b class="cmh fw-bold">Application Development</b></p>
+    <p class="text-justify mtu">
+    Application Development is the process of designing, building, and maintaining software apps for mobile, web, or desktop platforms to perform specific tasks or solve problems.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/course_degital_marketing.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Digital Marketing</span></h4>
+    <p><b class="cmh fw-bold">Digital Marketing</b></p>
+    <p class="text-justify mtu">
+    Digital Marketing uses online channels like social media, email, SEO, and ads to promote brands, engage customers, and drive sales in the digital world.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/html.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">HTML</span></h4>
+    <p><b class="cmh fw-bold">HyperText Markup Language.</b></p>
+    <p class="text-justify mtu">
+    HyperText Markup Language (HTML) is the standard language for creating web pages, structuring content, and linking documents on the internet using tags and elements..
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/css.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">CSS</span></h4>
+    <p><b class="cmh fw-bold">Cascading Style Sheets.</b></p>
+    <p class="text-justify mtu">
+    Cascading Style Sheets (CSS) is the standard language for styling web pages, controlling layout, colors, fonts, and enhancing the visual appearance of HTML content.
+    </p>
+    </div>
+    
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/java_script.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">JavaScript</span></h4>
+    <p><b class="cmh fw-bold">JavaScript Programming Language.</b></p>
+    <p class="text-justify mtu">
+    JavaScript is a popular programming language used to create dynamic, interactive effects within web browsers, enhancing user experience and enabling client-side scripting.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/java.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Java</span></h4>
+    <p><b class="cmh fw-bold">Java Programming Language.</b></p>
+    <p class="text-justify mtu">
+    Java is a versatile, object-oriented programming language widely used for building cross-platform applications, from web and mobile to enterprise software and embedded systems.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/php.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">PHP</span></h4>
+    <p><b class="cmh fw-bold">PHP Programming Language.</b></p>
+    <p class="text-justify mtu">
+    PHP is a popular server-side scripting language used to develop dynamic and interactive websites, enabling seamless database integration and backend web development.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/Python.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Python</span></h4>
+    <p><b class="cmh fw-bold">Python Programming Language.</b></p>
+    <p class="text-justify mtu">
+    Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/sql.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">SQL / My SQL</span></h4>
+    <p><b class="cmh fw-bold">SQL & My SQL Query Languages.</b></p>
+    <p class="text-justify mtu">
+    SQL and MQL are powerful languages used to interact with databases—SQL for managing structured data, and MQL for querying document-based systems like MongoDB.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/j-query.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">J-Query</span></h4>
+    <p><b class="cmh fw-bold">J-Query</b></p>
+    <p class="text-justify mtu">
+    jQuery is a fast, small JavaScript library that simplifies HTML document manipulation, event handling, animation, and Ajax interactions for easier web development.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/bootstrap.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Bootstrap / Tailwind </span></h4>
+    <p><b class="cmh fw-bold">Bootstrap / Tailwind</b></p>
+    <p class="text-justify mtu">
+    Bootstrap and Tailwind are popular CSS frameworks: Bootstrap offers ready-made components for rapid design, while Tailwind provides utility-first classes for highly customizable, modern web styling.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/laravel.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white"> Laravel Framwork</span></h4>
+    <p><b class="cmh fw-bold">Laravel Framwork</b></p>
+    <p class="text-justify mtu">
+    Laravel Framework is a PHP web framework that simplifies development with elegant syntax, offering tools for routing, authentication, and database management to build robust web applications.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/course_c_language.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white"> C Language</span></h4>
+    <p><b class="cmh fw-bold">C Language</b></p>
+    <p class="text-justify mtu">
+    C Language is a powerful, low-level programming language used for system software, embedded systems, and performance-critical applications due to its efficiency and control over hardware.
+    </p>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="border p-2 rounded">
+    <div class="effect-on-image">
+    <img src="<?php echo base_url(); ?>website_assets/all/course_c_plus.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+    <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white"> C++ Language </span></h4>
+    <p><b class="cmh fw-bold">C++ Language </b></p>
+    <p class="text-justify mtu">
+    C++ Language is an extension of C that supports object-oriented programming, enabling developers to create complex software like games, applications, and systems with high performance.
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    </div>
+    <!-- our courses section end -->
+      <!-- Best DPA computer institute in Bihar Sharif  -->
+
 
     <?php include("includes/footer.php"); ?>
     <?php include("includes/script.php"); ?>

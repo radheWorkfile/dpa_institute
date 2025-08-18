@@ -1,3 +1,4 @@
+<!-- Best DPA computer institute in Bihar Sharif  -->
 <?php $data['newsList'] = $this->db->select('*')->where(array('id' => '1', 'status' => 1))->order_by('id', 'ASC')->get('cms_news')->row_array(); ?>
 <?php $custom_setting = $this->db->select('*')->get('setting')->row(); ?>
 

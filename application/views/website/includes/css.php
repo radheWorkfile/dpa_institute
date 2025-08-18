@@ -1,3 +1,4 @@
+<!--  Best DPA computer institute in Bihar Sharif  -->
 <?php $custom_setting = $this->db->select('*')->get('setting')->row(); ?>
 <?php if (!empty($custom_setting)): ?>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url($custom_setting->favicon); ?>">
@@ -25,6 +26,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="https://unpkg.com/split-type"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<style>
+  .h1-m { font-size: 2rem; } 
+  .h4-m { font-size: 2rem; }   
+  .h5-m { font-size: 2rem; } 
+  .h6-m { font-size: 1.8rem; }  
+</style>
 <style>
     .qr-img-man {
         height: 10rem;

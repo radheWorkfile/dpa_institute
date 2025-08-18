@@ -171,74 +171,86 @@
         </div>
      
 
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/j-query.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">J-Query</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
+<div class="col-12 col-md-6 col-lg-4 my-3">
+  <div class="border p-2 rounded">
+    <div class="effect-on-image">
+      <img src="<?php echo base_url(); ?>website_assets/all/j-query.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+      <h4 class="fw-bold cm mt-2">
+        <span class="bgm py-1 px-3 rounded-pill text-white">J-Query</span>
+      </h4>
+      <p><b class="cmh fw-bold">jQuery JavaScript Library.</b></p>
+      <p class="text-justify mtu">
+        jQuery is a fast, lightweight JavaScript library. It simplifies tasks like HTML document traversal, event handling, animation, and Ajax interactions, making it easier to build dynamic and interactive web pages.
+      </p>
+    </div>
+  </div>
+</div>
 
 
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/bootstrap.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Bootstrap / Tailwind </span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
+      <div class="col-12 col-md-6 col-lg-4 my-3">
+  <div class="border p-2 rounded">
+    <div class="effect-on-image">
+      <img src="<?php echo base_url(); ?>website_assets/all/bootstrap.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+      <h4 class="fw-bold cm mt-2">
+        <span class="bgm py-1 px-3 rounded-pill text-white">Bootstrap / Tailwind</span>
+      </h4>
+      <p><b class="cmh fw-bold">Bootstrap and Tailwind CSS Frameworks</b></p>
+      <p class="text-justify mtu">
+        Bootstrap and Tailwind are popular CSS frameworks used to build responsive and visually appealing web interfaces. Bootstrap offers pre-designed components with a grid system.
+      </p>
+    </div>
+  </div>
+</div>
 
 
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/laravel.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white"> Laravel Framwork</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
+
+  <div class="col-12 col-md-6 col-lg-4 my-3">
+  <div class="border p-2 rounded">
+    <div class="effect-on-image">
+      <img src="<?php echo base_url(); ?>website_assets/all/laravel.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+      <h4 class="fw-bold cm mt-2">
+        <span class="bgm py-1 px-3 rounded-pill text-white">Laravel Framework</span>
+      </h4>
+      <p><b class="cmh fw-bold">Laravel PHP Framework</b></p>
+      <p class="text-justify mtu">
+       Laravel is a powerful PHP framework for web development. It offers clean syntax, strong routing, built-in security, and tools like Eloquent ORM and Blade to simplify development and boost productivity.
+      </p>
+    </div>
+  </div>
+</div>
 
 
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/graphics.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Graphic Design</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
+
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+  <div class="border p-2 rounded">
+    <div class="effect-on-image">
+      <img src="<?php echo base_url(); ?>website_assets/all/graphics.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+      <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Graphic Design</span></h4>
+      <p><b class="cmh fw-bold">Creative Visual Communication.</b></p>
+      <p class="text-justify mtu">
+        Graphic design is the art of combining text, images, and ideas to create visual content. It’s widely used in branding, advertising, digital media, and print materials.
+      </p>
+    </div>
+  </div>
+</div>
+
 
 
       </div>
     </div>
   </div>
   <!-- our courses section end -->
+      <!-- Best DPA computer institute in Bihar Sharif  -->
+
+
     <?php include("includes/footer.php"); ?>
     <?php include("includes/script.php"); ?>
 

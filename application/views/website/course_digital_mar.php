@@ -142,36 +142,38 @@
         </div>
 
 
-         <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/bootstrap.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Bootstrap / Tailwind </span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
-
-
             <div class="col-12 col-md-6 col-lg-4 my-3">
-          <div class="border p-2 rounded">
-            <div class="effect-on-image">
-              <img src="<?php echo base_url(); ?>website_assets/all/graphics.jpg" class="w-100 rounded effect-bllackky" alt="">
-            </div>
-            <div class="p-2">
-            <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Graphic Design</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
-            <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
-            </div>
-            </div>
-        </div>
+  <div class="border p-2 rounded">
+    <div class="effect-on-image">
+      <img src="<?php echo base_url(); ?>website_assets/all/bootstrap.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+      <h4 class="fw-bold cm mt-2">
+        <span class="bgm py-1 px-3 rounded-pill text-white">Bootstrap / Tailwind</span>
+      </h4>
+      <p><b class="cmh fw-bold">Bootstrap and Tailwind CSS Frameworks</b></p>
+      <p class="text-justify mtu">
+        Bootstrap and Tailwind are popular CSS frameworks used to build responsive and visually appealing web interfaces. Bootstrap offers pre-designed components with a grid system.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+    <div class="col-12 col-md-6 col-lg-4 my-3">
+  <div class="border p-2 rounded">
+    <div class="effect-on-image">
+      <img src="<?php echo base_url(); ?>website_assets/all/graphics.jpg" class="w-100 rounded effect-bllackky" alt="">
+    </div>
+    <div class="p-2">
+      <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Graphic Design</span></h4>
+      <p><b class="cmh fw-bold">Creative Visual Communication.</b></p>
+      <p class="text-justify mtu">
+        Graphic design is the art of combining text, images, and ideas to create visual content. It’s widely used in branding, advertising, digital media, and print materials.
+      </p>
+    </div>
+  </div>
+</div>
 
 
         <div class="col-12 col-md-6 col-lg-4 my-3">
@@ -181,9 +183,9 @@
             </div>
             <div class="p-2">
             <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">AI Tools</span></h4>
-            <p><b class="cmh fw-bold">SQL & My SQL Query Languages.</b></p>
+            <p><b class="cmh fw-bold">AI Tools</b></p>
             <p class="text-justify mtu">
-            SQL and MQL are powerful languages used to interact with databases—SQL for managing structured data, and MQL for querying document-based systems like MongoDB.
+            AI Tools are software or platforms that use artificial intelligence to automate tasks, analyze data, enhance productivity, and support smarter decision-making across various industries.
             </p>
             </div>
         </div>
@@ -197,9 +199,9 @@
             </div>
             <div class="p-2">
             <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">On / Off Page SEO</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
+            <p><b class="cmh fw-bold">On / Off Page SEO</b></p>
             <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
+             On/Off Page SEO improves website ranking. On-page focuses on content and structure, while off-page builds backlinks and authority from external sources like other websites.
             </p>
             </div>
             </div>
@@ -216,10 +218,9 @@
             </div>
             <div class="p-2">
             <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Google Ads</span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
+            <p><b class="cmh fw-bold">Google Ads</b></p>
             <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
+            Google Ads is an online advertising platform by Google where businesses create ads to appear in search results, websites, and YouTube, targeting specific audiences and keywords.
             </div>
             </div>
         </div>
@@ -232,10 +233,9 @@
             </div>
             <div class="p-2">
             <h4 class="fw-bold cm mt-2"><span class="bgm py-1 px-3 rounded-pill text-white">Meta Ads </span></h4>
-            <p><b class="cmh fw-bold">Python Programming Language.</b></p>
+            <p><b class="cmh fw-bold">Meta Ads </b></p>
             <p class="text-justify mtu">
-            Python is a versatile, high-level programming language known for its simplicity and readability, widely used in web development, data science, automation, and artificial intelligence.
-            </p>
+           Meta Ads are paid advertisements run on Facebook, Instagram, and other Meta platforms, helping businesses reach target audiences through advanced targeting, engagement, and conversion tools.
             </div>
             </div>
         </div>
@@ -248,6 +248,8 @@
     </div>
   </div>
   <!-- our courses section end -->
+      <!-- Best DPA computer institute in Bihar Sharif  -->
+
 
     <?php include("includes/footer.php"); ?>
     <?php include("includes/script.php"); ?>

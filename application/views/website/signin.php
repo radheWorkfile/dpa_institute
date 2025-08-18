@@ -194,6 +194,7 @@
       this.classList.toggle("fa-eye");
     })
   </script>
+  <!-- Best DPA computer institute in Bihar Sharif  -->
 
 </body>
 

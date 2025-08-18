@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+// Best DPA computer institute in Bihar Sharif 
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING
